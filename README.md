@@ -2,10 +2,13 @@
 
 This is a static promotional landing page for Rozenberg Family Chiropractic in Farmington, Michigan. It is designed to be hosted for free on GitHub Pages, Netlify, or Cloudflare Pages with no build step.
 
+Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
+
 ## Files
 
 - `index.html` is the page content, SEO metadata, structured data, and outbound links.
 - `styles.css` is the responsive layout and visual design.
+- `sitemap.xml` is a one-page sitemap for Google Search Console.
 
 ## Current outbound links
 
