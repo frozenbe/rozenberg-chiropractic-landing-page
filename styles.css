@@ -82,6 +82,14 @@ a {
   height: auto;
 }
 
+.bh-mark {
+  flex: 0 0 auto;
+  color: var(--blue-strong);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -274,6 +282,148 @@ h3 {
 
 .hero-facts a {
   text-decoration: none;
+}
+
+.medicare-section {
+  background: #f3f8f5;
+  border-block: 1px solid #d1e1d8;
+}
+
+.medicare-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.06fr) minmax(320px, 0.76fr);
+  align-items: start;
+  gap: clamp(34px, 7vw, 104px);
+}
+
+.medicare-copy h2 {
+  max-width: 760px;
+  margin-bottom: 20px;
+}
+
+.medicare-copy > p:not(.eyebrow) {
+  max-width: 720px;
+  font-size: 1.06rem;
+}
+
+.medicare-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px;
+  margin: 28px 0 18px;
+}
+
+.text-link {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.medicare-disclaimer {
+  margin-bottom: 0;
+  color: #526b5f;
+  font-size: 0.92rem !important;
+}
+
+.coverage-details {
+  padding: 4px 0 4px 30px;
+  border-left: 4px solid var(--green);
+}
+
+.coverage-label {
+  margin-bottom: 8px;
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.coverage-details h3 {
+  margin-bottom: 14px;
+  font-size: clamp(1.32rem, 2vw, 1.7rem);
+}
+
+.coverage-details p {
+  margin-bottom: 14px;
+}
+
+.coverage-details ul {
+  display: grid;
+  gap: 10px;
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.coverage-details li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.coverage-details li::before {
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  content: "+";
+  font-weight: 900;
+}
+
+.local-section {
+  background: var(--paper);
+}
+
+.local-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(300px, 0.7fr);
+  align-items: start;
+  gap: clamp(34px, 7vw, 104px);
+}
+
+.area-card {
+  padding: clamp(26px, 4vw, 42px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--soft);
+  box-shadow: var(--shadow);
+}
+
+.area-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.area-list li {
+  padding: 8px 12px;
+  color: var(--blue-strong);
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 750;
+}
+
+.payment-note {
+  max-width: 680px;
+  margin-top: 28px;
+  padding: 22px 24px;
+  border-left: 4px solid var(--teal);
+  background: var(--soft);
+}
+
+.payment-note h3 {
+  margin-bottom: 8px;
+}
+
+.payment-note p {
+  margin-bottom: 0;
+}
+
+.footer-bh {
+  font-weight: 800;
 }
 
 .trust-band {
@@ -605,7 +755,9 @@ address {
   .trust-grid,
   .care-grid,
   .split,
-  .location-grid {
+  .medicare-grid,
+  .location-grid,
+  .local-grid {
     grid-template-columns: 1fr;
   }
 
@@ -626,6 +778,10 @@ address {
 }
 
 @media (max-width: 640px) {
+
+  .bh-mark {
+    display: none;
+  }
   body {
     padding-bottom: 78px;
   }
@@ -651,6 +807,7 @@ address {
   }
 
   .hero-actions .button,
+  .medicare-actions .button,
   .review-actions .button,
   .final-actions .button {
     width: 100%;
@@ -660,6 +817,12 @@ address {
   .trust-item,
   .care-card {
     padding: 18px;
+  }
+
+  .coverage-details {
+    padding: 22px 0 0;
+    border-top: 4px solid var(--green);
+    border-left: 0;
   }
 
   .hours-list div {

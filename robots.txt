@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/sitemap.xml

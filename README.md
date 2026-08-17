@@ -9,6 +9,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - `index.html` is the page content, SEO metadata, structured data, and outbound links.
 - `styles.css` is the responsive layout and visual design.
 - `sitemap.xml` is a one-page sitemap for Google Search Console.
+- `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
 
 ## Current outbound links
 
@@ -16,6 +17,8 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - Scheduling: `https://rozenbergfamilychiropractic.com/schedule-now/`
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
 - Yelp: `https://www.yelp.com/biz/rozenberg-family-chiropractic-farmington`
+- Medicare: Landing-page messaging reflects approved Medicare enrollment and directs prospective patients to call to confirm billing availability and service-specific coverage.
+- Payment: Cash and credit cards are accepted; visitors are asked to call about select insurance plan participation.
 
 ## Free hosting options
 
@@ -43,5 +46,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 Update social previews and local SEO signals:
 
 - Add the published URL to Google Business Profile as an additional website link if appropriate.
+- Submit `sitemap.xml` in both Google Search Console and Bing Webmaster Tools.
+- Keep the Sunday hours and insurance details consistent on the main website, Google Business Profile, Bing Places, Yelp, and other directory listings.
 - Use the published URL in social posts, directories, and local citations.
 - Optionally add a custom domain or subdomain, such as `care.rozenbergfamilychiropractic.com`.
