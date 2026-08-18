@@ -10,6 +10,16 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - `styles.css` is the responsive layout and visual design.
 - `sitemap.xml` is a one-page sitemap for Google Search Console.
 - `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
+- `analytics.js` loads GA4 only after visitor consent and records booking, phone, and email lead clicks.
+- `privacy.html` explains the Google Analytics data use and gives visitors access to privacy choices.
+
+## Analytics
+
+- GA4 account: `Rozenberg Family Chiropractic`
+- GA4 property: `Rozenberg Family Chiropractic Website`
+- Web stream: `Rozenberg Chiropractic Landing Page`
+- Measurement ID: `G-T8H1H3W6HW`
+- Optional Google advertising signals and account-level data sharing are disabled.
 
 ## Current outbound links
 
