@@ -2,6 +2,8 @@
 
 This is a static promotional landing page for Rozenberg Family Chiropractic in Farmington, Michigan. It is designed to be hosted for free on GitHub Pages, Netlify, or Cloudflare Pages with no build step.
 
+The page profiles Dr. Brittany Anderson, D.C., a graduate of Life University’s College of Chiropractic, and highlights the practice's central Farmington location, easy car access, and on-site parking. Current hours are Sunday through Thursday, 10:00 AM-8:00 PM, and Friday, 10:00 AM-5:00 PM.
+
 Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 
 ## Files
@@ -10,6 +12,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - `styles.css` is the responsive layout and visual design.
 - `sitemap.xml` is a one-page sitemap for Google Search Console.
 - `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
+- `6e91c38e92d84d92a15a6e7a2b4f7c31.txt` verifies the site for Bing and other IndexNow-supported search engines.
 - `analytics.js` loads GA4 only after visitor consent and records booking, phone, and email lead clicks.
 - `privacy.html` explains the Google Analytics data use and gives visitors access to privacy choices.
 
@@ -57,6 +60,6 @@ Update social previews and local SEO signals:
 
 - Add the published URL to Google Business Profile as an additional website link if appropriate.
 - Submit `sitemap.xml` in both Google Search Console and Bing Webmaster Tools.
-- Keep the Sunday hours and insurance details consistent on the main website, Google Business Profile, Bing Places, Yelp, and other directory listings.
+- Keep all hours, doctor credentials, location details, and insurance information consistent on the main website, Google Business Profile, Bing Places, Yelp, and other directory listings.
 - Use the published URL in social posts, directories, and local citations.
 - Optionally add a custom domain or subdomain, such as `care.rozenbergfamilychiropractic.com`.

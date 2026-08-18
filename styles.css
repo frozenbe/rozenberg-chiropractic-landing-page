@@ -491,6 +491,11 @@ h3 {
   font-size: 1.06rem;
 }
 
+.copy-block p a {
+  color: var(--blue);
+  font-weight: 750;
+}
+
 .feature-image {
   margin: 0;
 }
@@ -588,6 +593,13 @@ address {
   margin-bottom: 20px;
   color: var(--ink);
   font-style: normal;
+}
+
+.location-note {
+  max-width: 580px;
+  margin: -6px 0 22px;
+  color: var(--muted);
+  font-size: 1.04rem;
 }
 
 .contact-list {
