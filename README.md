@@ -29,7 +29,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - Main site: `https://rozenbergfamilychiropractic.com/`
 - Scheduling: `https://rozenbergfamilychiropractic.com/schedule-now/`
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
-- Yelp: `https://www.yelp.com/biz/rozenberg-family-chiropractic-farmington`
+- Yelp: `https://m.yelp.com/biz/rozenberg-family-chiropractic-farmington?ylpcid=6fa3684f691841c48980c66c5cd639fa714d51fa`
 - Insurance: Medicare participation is not currently approved. Blue Cross applications are in progress and are not yet approved.
 - Payment: Cash and credit cards are accepted; visitors are asked to call about current participation in select insurance plans.
 

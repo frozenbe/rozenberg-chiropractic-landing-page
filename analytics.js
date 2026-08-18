@@ -76,6 +76,12 @@
       window.gtag("event", "generate_lead", { method: "email" });
     } else if (href.includes("/schedule-now/")) {
       window.gtag("event", "generate_lead", { method: "online_scheduling" });
+    } else if (href.includes("maps.app.goo.gl")) {
+      window.gtag("event", "outbound_profile_click", { destination: "google_maps" });
+    } else if (href.includes("yelp.com/biz/rozenberg-family-chiropractic-farmington")) {
+      window.gtag("event", "outbound_profile_click", { destination: "yelp" });
+    } else if (href.includes("rozenbergfamilychiropractic.com")) {
+      window.gtag("event", "outbound_profile_click", { destination: "main_website" });
     }
   });
 
