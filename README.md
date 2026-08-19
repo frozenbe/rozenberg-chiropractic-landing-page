@@ -8,9 +8,11 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 
 ## Files
 
-- `index.html` is the page content, SEO metadata, structured data, and outbound links.
+- `index.html` is the local homepage content, SEO metadata, structured data, and outbound links.
+- `back-pain-chiropractor-farmington.html` answers symptom-first back pain searches with safety guidance, local details, and cited health sources.
+- `sciatica-chiropractor-farmington.html` answers local sciatica and radiating leg-pain searches with safety guidance, local details, and cited health sources.
 - `styles.css` is the responsive layout and visual design.
-- `sitemap.xml` is a one-page sitemap for Google Search Console.
+- `sitemap.xml` lists the homepage, privacy page, and both local symptom guides for Google and Bing.
 - `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
 - `6e91c38e92d84d92a15a6e7a2b4f7c31.txt` verifies the site for Bing and other IndexNow-supported search engines.
 - `analytics.js` loads GA4 only after visitor consent and records booking, phone, and email lead clicks.
