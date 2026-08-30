@@ -10,6 +10,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 
 - `index.html` is the local homepage content, SEO metadata, structured data, and outbound links.
 - `back-pain-chiropractor-farmington.html` answers symptom-first back pain searches with safety guidance, local details, and cited health sources.
+- `neck-pain-chiropractor-farmington.html` answers neck, shoulder, and upper-back pain searches with safety guidance, realistic chiropractic information, and cited health sources.
 - `sciatica-chiropractor-farmington.html` answers local sciatica and radiating leg-pain searches with safety guidance, local details, and cited health sources.
 - `truck-driver-foot-pain-farmington.html` addresses sore feet, swelling, numbness, and musculoskeletal strain after long driving hours, especially for professional drivers.
 - `styles.css` is the responsive layout and visual design.
