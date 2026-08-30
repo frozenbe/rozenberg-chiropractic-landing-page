@@ -558,7 +558,7 @@ h3 {
 
 .symptom-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -576,6 +576,10 @@ h3 {
 
 .symptom-card:nth-child(2) {
   border-top-color: var(--teal);
+}
+
+.symptom-card:nth-child(3) {
+  border-top-color: var(--gold);
 }
 
 .symptom-card:hover {
