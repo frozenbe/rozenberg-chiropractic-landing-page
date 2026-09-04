@@ -76,13 +76,14 @@ a {
   align-items: center;
   min-width: 220px;
   padding: 7px 11px;
-  background: var(--blue-strong);
+  background: var(--paper);
   border-radius: var(--radius);
 }
 
 .brand img {
-  width: min(340px, 44vw);
-  height: auto;
+  width: min(280px, 40vw);
+  height: 76px;
+  object-fit: contain;
 }
 
 .bh-mark {
@@ -1080,7 +1081,7 @@ address {
   }
 
   .brand img {
-    width: min(320px, 62vw);
+    width: min(244px, 48vw);
   }
 
   .hero {
@@ -1211,4 +1212,20 @@ address {
   .mobile-cta {
     display: grid;
   }
+}
+
+/* A visible path from legacy article URLs to the primary clinic website. */
+.official-guide-notice {
+  margin: 130px auto 0;
+  width: min(1180px, calc(100% - 36px));
+  padding: 14px 18px;
+  color: var(--blue-strong);
+  background: var(--muted);
+  border-left: 4px solid var(--green);
+}
+.official-guide-notice p { margin: 0; }
+.official-guide-notice a { font-weight: 700; }
+.official-guide-notice + .article-hero { padding-top: 40px; }
+@media (max-width: 780px) {
+  .official-guide-notice { margin-top: 180px; }
 }

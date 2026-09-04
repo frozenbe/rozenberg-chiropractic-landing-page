@@ -14,7 +14,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - `sciatica-chiropractor-farmington.html` answers local sciatica and radiating leg-pain searches with safety guidance, local details, and cited health sources.
 - `truck-driver-foot-pain-farmington.html` addresses sore feet, swelling, numbness, and musculoskeletal strain after long driving hours, especially for professional drivers.
 - `styles.css` is the responsive layout and visual design.
-- `sitemap.xml` lists the homepage, privacy page, and all local symptom guides for Google and Bing.
+- `sitemap.xml` lists the self-canonical homepage and privacy page. The four legacy symptom guides now prefer the official-site versions and are intentionally excluded.
 - `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
 - `6e91c38e92d84d92a15a6e7a2b4f7c31.txt` verifies the site for Bing and other IndexNow-supported search engines.
 - `analytics.js` loads GA4 only after visitor consent and records booking, phone, and email lead clicks.
@@ -62,8 +62,22 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 
 Update social previews and local SEO signals:
 
-- Add the published URL to Google Business Profile as an additional website link if appropriate.
+- Use the official website as the primary website on Google Business Profile and other clinic listings.
 - Submit `sitemap.xml` in both Google Search Console and Bing Webmaster Tools.
 - Keep all hours, doctor credentials, location details, and insurance information consistent on the main website, Google Business Profile, Bing Places, Yelp, and other directory listings.
-- Use the published URL in social posts, directories, and local citations.
+- Share the matching official-site resource URLs in new posts and outreach; keep existing GitHub links working for previous visitors.
 - Optionally add a custom domain or subdomain, such as `care.rozenbergfamilychiropractic.com`.
+
+## Official resource consolidation (September 4, 2026)
+
+The four legacy GitHub articles substantially overlap the new official articles. They remain readable at their existing URLs, include a prominent official-guide link, and declare the matching official URL as canonical. Google treats this as a preference, not a guarantee. The homepage remains a distinct, self-canonical local overview.
+
+- `back-pain-chiropractor-farmington.html` → `https://rozenbergfamilychiropractic.com/back-pain-farmington-mi/`
+- `neck-pain-chiropractor-farmington.html` → `https://rozenbergfamilychiropractic.com/neck-pain-farmington-mi/`
+- `sciatica-chiropractor-farmington.html` → `https://rozenbergfamilychiropractic.com/sciatica-farmington-mi/`
+- `truck-driver-foot-pain-farmington.html` → `https://rozenbergfamilychiropractic.com/foot-pain-long-driving/`
+
+- Header branding and business logo metadata use the new clinic logo.
+- Care links go directly to `/chiropractic/`, avoiding the legacy misspelling.
+- Consent-based analytics are unchanged. A scheduling-link click is an inquiry signal, not a confirmed appointment.
+- Printable review materials are kept outside the public website upload.
