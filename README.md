@@ -32,6 +32,8 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 
 - Main site: `https://rozenbergfamilychiropractic.com/`
 - Scheduling: `https://rozenbergfamilychiropractic.com/schedule-now/`
+- Pricing: `https://rozenbergfamilychiropractic.com/pricing-packages/`
+- First visit: `https://rozenbergfamilychiropractic.com/your-visit/`
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
 - Yelp: `https://m.yelp.com/biz/rozenberg-family-chiropractic-farmington?ylpcid=6fa3684f691841c48980c66c5cd639fa714d51fa`
 - Insurance: Medicare participation is not currently approved. Blue Cross applications are in progress and are not yet approved.
@@ -80,4 +82,5 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Header branding and business logo metadata use the new clinic logo.
 - Care links go directly to `/chiropractic/`, avoiding the legacy misspelling.
 - Consent-based analytics are unchanged. A scheduling-link click is an inquiry signal, not a confirmed appointment.
+- The pricing section states the user-confirmed $65 chiropractic visit rate and links to official pricing and first-visit information. The published $50 deposit is disclosed without assuming whether it is additional or credited, and visitors are asked to confirm their first-visit total and deposit terms. No lowest-price or all-inclusive initial-visit claim is made.
 - Printable review materials are kept outside the public website upload.
