@@ -37,7 +37,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
 - Yelp: `https://m.yelp.com/biz/rozenberg-family-chiropractic-farmington?ylpcid=6fa3684f691841c48980c66c5cd639fa714d51fa`
 - Insurance: Medicare participation is not currently approved. Blue Cross applications are in progress and are not yet approved.
-- Payment: Cash and credit cards are accepted; visitors are asked to call about current participation in select insurance plans.
+- Payment: Cash, checks, all credit cards, Venmo, and Zelle are accepted (confirmed by the clinic on September 6, 2026). Visible payment information and business structured data are consistent across the landing page and four legacy guides; visitors are asked to call about current participation in select insurance plans.
 
 ## Free hosting options
 
@@ -83,4 +83,5 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Care links go directly to `/chiropractic/`, avoiding the legacy misspelling.
 - Consent-based analytics are unchanged. A scheduling-link click is an inquiry signal, not a confirmed appointment.
 - The pricing section states the user-confirmed $65 chiropractic visit rate and links to official pricing and first-visit information. The published $50 deposit is disclosed without assuming whether it is additional or credited, and visitors are asked to confirm their first-visit total and deposit terms. No lowest-price or all-inclusive initial-visit claim is made.
+- The homepage leads with $65 chiropractic visits, Sunday and evening appointments, central Farmington access, and on-site parking. Its hero links directly to pricing and first-visit details.
 - Printable review materials are kept outside the public website upload.
