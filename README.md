@@ -35,6 +35,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - Pricing: `https://rozenbergfamilychiropractic.com/pricing-packages/`
 - First visit: `https://rozenbergfamilychiropractic.com/your-visit/`
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
+- Facebook business Page: `https://www.facebook.com/profile.php?id=61593890954507`
 - Yelp: `https://m.yelp.com/biz/rozenberg-family-chiropractic-farmington?ylpcid=6fa3684f691841c48980c66c5cd639fa714d51fa`
 - Insurance: Medicare participation is not currently approved. Blue Cross applications are in progress and are not yet approved.
 - Payment: Cash, checks, all credit cards, Venmo, and Zelle are accepted (confirmed by the clinic on September 6, 2026). Visible payment information and business structured data are consistent across the landing page and four legacy guides; visitors are asked to call about current participation in select insurance plans.
@@ -83,5 +84,8 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Care links go directly to `/chiropractic/`, avoiding the legacy misspelling.
 - Consent-based analytics are unchanged. A scheduling-link click is an inquiry signal, not a confirmed appointment.
 - The pricing section states the user-confirmed $65 chiropractic visit rate and links to official pricing and first-visit information. The published $50 deposit is disclosed without assuming whether it is additional or credited, and visitors are asked to confirm their first-visit total and deposit terms. No lowest-price or all-inclusive initial-visit claim is made.
-- The homepage leads with $65 chiropractic visits, Sunday and evening appointments, central Farmington access, and on-site parking. Its hero links directly to pricing and first-visit details.
+- The homepage leads with Dr. Brittany's care, Sunday and evening appointments, central Farmington access, and on-site parking. The $65 fee remains in the pricing section; prominent call and text links help visitors request an appointment without implying a confirmed booking.
+- `hours-notice.js` displays the September 7, 2026 Labor Day closure only during that day in America/Detroit (EDT). The dated structured-data exception remains valid only for September 7. The script is independent of analytics consent and collects no data.
+- Text and Facebook click analytics run only after analytics consent; no message contents are collected. A contact click is not a confirmed appointment.
+- Choosing “No thanks” after previously allowing analytics now blocks subsequent click events and sets Google's documented `ga-disable` flag immediately for the current page.
 - Printable review materials are kept outside the public website upload.

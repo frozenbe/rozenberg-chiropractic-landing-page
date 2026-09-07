@@ -3,6 +3,8 @@
   const storageKey = "rfc_analytics_consent";
   const consentBanner = document.getElementById("analytics-consent");
   let analyticsLoaded = false;
+  let currentConsent = readConsent();
+  window[`ga-disable-${measurementId}`] = currentConsent !== "granted";
 
   function readConsent() {
     try {
@@ -26,6 +28,7 @@
 
     window.dataLayer = window.dataLayer || [];
     window.gtag = function gtag() {
+      if (currentConsent !== "granted") return;
       window.dataLayer.push(arguments);
     };
 
@@ -55,6 +58,9 @@
     const consentButton = event.target.closest("[data-analytics-consent]");
     if (consentButton) {
       const choice = consentButton.dataset.analyticsConsent;
+      if (choice !== "granted" && choice !== "denied") return;
+      currentConsent = choice;
+      window[`ga-disable-${measurementId}`] = choice !== "granted";
       saveConsent(choice);
       hideConsent();
       if (choice === "granted") loadAnalytics();
@@ -67,11 +73,13 @@
     }
 
     const link = event.target.closest("a[href]");
-    if (!link || typeof window.gtag !== "function") return;
+    if (!link || currentConsent !== "granted" || typeof window.gtag !== "function") return;
 
     const href = link.href;
     if (href.startsWith("tel:")) {
       window.gtag("event", "generate_lead", { method: "phone" });
+    } else if (href.startsWith("sms:")) {
+      window.gtag("event", "generate_lead", { method: "text_message" });
     } else if (href.startsWith("mailto:")) {
       window.gtag("event", "generate_lead", { method: "email" });
     } else if (href.includes("/schedule-now/")) {
@@ -80,15 +88,16 @@
       window.gtag("event", "outbound_profile_click", { destination: "google_maps" });
     } else if (href.includes("yelp.com/biz/rozenberg-family-chiropractic-farmington")) {
       window.gtag("event", "outbound_profile_click", { destination: "yelp" });
+    } else if (href.includes("facebook.com/profile.php?id=61593890954507")) {
+      window.gtag("event", "outbound_profile_click", { destination: "facebook" });
     } else if (href.includes("rozenbergfamilychiropractic.com")) {
       window.gtag("event", "outbound_profile_click", { destination: "main_website" });
     }
   });
 
-  const savedConsent = readConsent();
-  if (savedConsent === "granted") {
+  if (currentConsent === "granted") {
     loadAnalytics();
-  } else if (savedConsent !== "denied") {
+  } else if (currentConsent !== "denied") {
     showConsent();
   }
 })();
