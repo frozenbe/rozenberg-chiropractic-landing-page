@@ -1244,3 +1244,13 @@ address {
 @media (max-width: 780px) {
   .official-guide-notice { margin-top: 180px; }
 }
+
+/* Shared authentic clinic photo collection. Keep entire photos visible. */
+.clinic-photo-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.clinic-photo { margin: 0; background: #fff; border: 1px solid #dce4df; border-radius: 12px; overflow: hidden; }
+.clinic-photo a { display: block; background: #edf1ef; }
+.clinic-photo a:focus-visible { outline: 3px solid #254735; outline-offset: -3px; }
+.clinic-photo img { display: block; width: 100%; height: 280px; object-fit: contain; }
+.clinic-photo figcaption { padding: 16px 18px; font-weight: 600; }
+@media (max-width: 900px) { .clinic-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .clinic-photo-grid { grid-template-columns: 1fr; } .clinic-photo img { height: auto; max-height: 440px; } }

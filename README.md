@@ -96,3 +96,9 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Internal home links use `./` (and `./#doctor` / `./#location`) to resolve directly to the canonical homepage, avoiding the `/index.html` alias.
 - Privacy-page Open Graph and X card metadata describe the privacy notice. The notice and analytics behavior are unchanged.
 - Keep the four legacy guide canonicals pointing to their official-site counterparts and keep only the homepage and privacy page in this sitemap.
+
+## Shared clinic photo library (September 9, 2026)
+
+The homepage now includes six authentic doctor, treatment and office photos, available as complete images with captions and descriptive alt text. The files preserve the approved photographs; no AI image alteration was used. The treatment photograph was explicitly authorized by the clinic for marketing use. Office photos remain in the collection as requested, and are not labeled as photos of a future location.
+
+The homepage declares the doctor portrait as its preferred page image, includes all six photos in clinic structured data and the image sitemap, and permits large image previews. Search engines choose whether and where to show an image. The full-resolution approved navy/sage logo is stored as `rozenberg-family-chiropractic-logo.png` and used in clinic logo metadata. The existing matching header artwork is retained.
