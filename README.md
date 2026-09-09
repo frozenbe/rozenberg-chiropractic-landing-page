@@ -15,7 +15,7 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - `truck-driver-foot-pain-farmington.html` addresses sore feet, swelling, numbness, and musculoskeletal strain after long driving hours, especially for professional drivers.
 - `styles.css` is the responsive layout and visual design.
 - `sitemap.xml` lists the self-canonical homepage and privacy page. The four legacy symptom guides now prefer the official-site versions and are intentionally excluded.
-- `robots.txt` gives Google, Bing, and other crawlers the sitemap location.
+- `robots.txt` is a project-folder reference only; crawlers look for robots.txt at the host root. Submit the exact project sitemap directly in Search Console, Bing Webmaster Tools, and the audit crawler.
 - `6e91c38e92d84d92a15a6e7a2b4f7c31.txt` verifies the site for Bing and other IndexNow-supported search engines.
 - `analytics.js` loads GA4 only after visitor consent and records booking, phone, and email lead clicks.
 - `privacy.html` explains the Google Analytics data use and gives visitors access to privacy choices.
@@ -89,3 +89,10 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Text and Facebook click analytics run only after analytics consent; no message contents are collected. A contact click is not a confirmed appointment.
 - Choosing “No thanks” after previously allowing analytics now blocks subsequent click events and sets Google's documented `ga-disable` flag immediately for the current page.
 - Printable review materials are kept outside the public website upload.
+
+## Technical SEO cleanup (September 9, 2026)
+
+- Use the supported Schema.org `MedicalClinic` type for the practice on the homepage and four legacy guides. Remove the incorrect `medicalSpecialty: "Chiropractic"` declaration; chiropractic remains explicit in the business name and visible service copy. No credential or specialty is invented.
+- Internal home links use `./` (and `./#doctor` / `./#location`) to resolve directly to the canonical homepage, avoiding the `/index.html` alias.
+- Privacy-page Open Graph and X card metadata describe the privacy notice. The notice and analytics behavior are unchanged.
+- Keep the four legacy guide canonicals pointing to their official-site counterparts and keep only the homepage and privacy page in this sitemap.
