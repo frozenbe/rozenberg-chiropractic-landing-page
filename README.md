@@ -83,7 +83,7 @@ The four legacy GitHub articles substantially overlap the new official articles.
 - Header branding and business logo metadata use the new clinic logo.
 - Care links go directly to `/chiropractic/`, avoiding the legacy misspelling.
 - Consent-based analytics are unchanged. A scheduling-link click is an inquiry signal, not a confirmed appointment.
-- The pricing section states the user-confirmed $65 chiropractic visit rate and links to official pricing and first-visit information. The published $50 deposit is disclosed without assuming whether it is additional or credited, and visitors are asked to confirm their first-visit total and deposit terms. No lowest-price or all-inclusive initial-visit claim is made.
+- The pricing section states the user-confirmed $65 chiropractic visit rate. The user confirmed on September 9 that a $50 deposit counts toward that price, leaving $15, and patients usually pay $65 when they arrive. Other service/package prices remain on the official site; no lowest-price or all-inclusive care claim is made.
 - The homepage leads with Dr. Brittany's care, Sunday and evening appointments, central Farmington access, and on-site parking. The $65 fee remains in the pricing section; prominent call and text links help visitors request an appointment without implying a confirmed booking.
 - `hours-notice.js` displays the September 7, 2026 Labor Day closure only during that day in America/Detroit (EDT). The dated structured-data exception remains valid only for September 7. The script is independent of analytics consent and collects no data.
 - Text and Facebook click analytics run only after analytics consent; no message contents are collected. A contact click is not a confirmed appointment.
@@ -102,3 +102,7 @@ The four legacy GitHub articles substantially overlap the new official articles.
 The homepage now includes eight authentic doctor, treatment and office photos, available as complete images with captions and descriptive alt text. The files preserve the approved photographs; no AI image alteration was used. The treatment photograph was explicitly authorized by the clinic for marketing use. Office photos remain in the collection as requested, and are not labeled as photos of a future location.
 
 The homepage declares the doctor portrait as its preferred page image, includes all eight photos in clinic structured data and the image sitemap, and permits large image previews. Search engines choose whether and where to show an image. The full-resolution approved navy/sage logo is stored as `rozenberg-family-chiropractic-logo.png` and used in clinic logo metadata. The existing matching header artwork is retained.
+
+## Appointment contact improvements (September 9, 2026)
+
+The header and pricing-section primary buttons now open the clinic phone directly. The `#appointments` section explains how to request a time by call or text, current hours, the confirmed visit price and deposit credit. Appointment availability is confirmed by the office; no live calendar or specific open slots are implied. Existing consent-based phone and text click measurement remains in place.

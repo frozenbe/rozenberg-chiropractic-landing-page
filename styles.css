@@ -910,6 +910,19 @@ address {
   color: #fff;
 }
 
+.appointment-copy {
+  max-width: 760px;
+}
+
+.appointment-copy p {
+  line-height: 1.65;
+}
+
+.appointment-copy a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .site-footer {
   padding: 28px 0;
   color: #dbe7ea;
