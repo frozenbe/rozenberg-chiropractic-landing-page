@@ -37,8 +37,8 @@ Live page: https://frozenbe.github.io/rozenberg-chiropractic-landing-page/
 - Google reviews: `https://maps.app.goo.gl/4jcfa6Mh9xQxSKBa8`
 - Facebook business Page: `https://www.facebook.com/profile.php?id=61593890954507`
 - Yelp: `https://m.yelp.com/biz/rozenberg-family-chiropractic-farmington?ylpcid=6fa3684f691841c48980c66c5cd639fa714d51fa`
-- Insurance: Medicare participation is not currently approved. Blue Cross applications are in progress and are not yet approved.
-- Payment: Cash, checks, all credit cards, Venmo, and Zelle are accepted (confirmed by the clinic on September 6, 2026). Visible payment information and business structured data are consistent across the landing page and four legacy guides; visitors are asked to call about current participation in select insurance plans.
+- Insurance: The clinic confirmed on September 12, 2026 that all visits are currently self-pay. Its Blue Cross network application has been submitted and is awaiting a response and approval. Medicare participation is not currently approved.
+- Payment: Cash, checks, all credit cards, Venmo, and Zelle are accepted. After payment, the clinic provides an itemized superbill and receipt on clinic letterhead for patients to request out-of-network reimbursement if their plan allows it. Reimbursement is not guaranteed and depends on plan benefits, deductibles, and claim requirements. This wording replaces the prior claim that the clinic works with select insurance plans on the homepage and four legacy guides.
 
 ## Free hosting options
 
